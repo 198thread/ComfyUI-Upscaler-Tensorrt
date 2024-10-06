@@ -1,5 +1,7 @@
 import torch
 import time
+import sys
+sys.path.insert(0, ".")
 from utilities import Engine
 
 def export_trt(trt_path=None, onnx_path=None, use_fp16=True):
